@@ -1,0 +1,55 @@
+<html></html>
+    <head>
+        <title>hello</title>
+        <style>
+            .c{margin:100px 0px 0px 500px;
+                width:340px;
+                height:470px;
+                border:solid 2px black;
+                border-radius:10px;
+                 box-shadow:6px 6px 10px black;
+                background-color:#000000;
+                
+              
+              }
+            .i{width:40px;height:40px;
+              padding:30px;
+              margin:0px 10px 0px 0px;
+              background-color:#000000;
+              border:solid 1px black;
+              border-radius:70px;
+              box-shadow:5px 5px 10px rgb(78, 77, 77 ) ;
+              font-size:20px;
+              color:#ffffff;
+              cursor:pointer;
+            
+          }
+          .g{background-image:url("download (3).jpg");
+             background-repeat:no-repeat;
+            background-size:cover;
+            background-position: center; }
+        </style>
+    </head>
+    <body >
+    <div class="c" >
+        <form>
+      <input type="text" name="display" style="width:270px;height:50px;margin:30px;background-color:black;font-size:35px;color:#ffffff"><br><br>
+      <input type="button" value="1" onclick="display.value +='1'" class="i" style="margin:0px 0px 0px 30px" >
+      <input type="button" value="2" class="i"  onclick="display.value +='2'">
+      <input type="button" value="3" class="i"  onclick="display.value +='3'">
+      <input type="button" value="+" class="i"  onclick="display.value +='+'"><br><br>
+      <input type="button" value="4" class="i"  onclick="display.value +='4'"  style="margin:0px 0px 0px 30px">
+      <input type="button" value="5" class="i"  onclick="display.value +='5'">
+      <input type="button" value="6" class="i"  onclick="display.value +='6'">
+      <input type="button" value="-" class="i"  onclick="display.value +='-'"><br><br>
+      <input type="button" value="7" class="i"  onclick="display.value +='7'" style="margin:0px 0px 0px 30px">
+      <input type="button" value="8" class="i"  onclick="display.value +='8'">
+      <input type="button" value="9" class="i"  onclick="display.value +='9'">
+      <input type="button" value="*" class="i"  onclick="display.value +='*'"><br><br>
+      <input type="button" value="0" class="i"  onclick="display.value +='0'" style="margin:0px 0px 0px 30px">
+      <input type="button" value="AC" class="i" onclick="display.value =''">
+      <input type="button" value="/" class="i"  onclick="display.value +='/'">
+      <input type="button" value="=" class="i"  onclick="display.value=eval(display.value)">
+    </div>
+    </body>
+</html>
